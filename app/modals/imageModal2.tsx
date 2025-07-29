@@ -9,7 +9,7 @@ export default function ImageModal() {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Image Modal</Text>
+            <Text style={styles.title}>Image Modal 2</Text>
             <Galeria urls={[url]}>
                 <Galeria.Image>
                     <Image
@@ -19,7 +19,7 @@ export default function ImageModal() {
                 </Galeria.Image>
             </Galeria>
             <Button title="Close" onPress={() => router.back()} />
-            <Button title="New Modal" onPress={() => router.push('/modals/imageModal2')} />
+            <Button title="New Modal" onPress={() => router.push('/modals/imageModal')} />
         </View>
     );
 }

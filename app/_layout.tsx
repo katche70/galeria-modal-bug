@@ -27,6 +27,11 @@ export default function RootLayout() {
                   title: "Image-Test", contentStyle: { backgroundColor: "transparent" },
                   headerTitleStyle: { fontSize: 22, fontWeight: "800" }, headerTitleAlign: "left"
                 }} />
+        <Stack.Screen name="modals/imageModal2" options={{
+                  presentation: "modal", headerShown: false,
+                  title: "Image-Test", contentStyle: { backgroundColor: "transparent" },
+                  headerTitleStyle: { fontSize: 22, fontWeight: "800" }, headerTitleAlign: "left"
+                }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
