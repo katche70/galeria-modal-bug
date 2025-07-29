@@ -19,6 +19,7 @@ export default function ImageModal() {
                 </Galeria.Image>
             </Galeria>
             <Button title="Close" onPress={() => router.back()} />
+            <Button title="New Modal" onPress={() => router.push('/modals/imageModal')} />
         </View>
     );
 }
