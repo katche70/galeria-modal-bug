@@ -22,6 +22,11 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
+        <Stack.Screen name="modals/imageModal" options={{
+                  presentation: "modal", headerShown: false,
+                  title: "Image-Test", contentStyle: { backgroundColor: "transparent" },
+                  headerTitleStyle: { fontSize: 22, fontWeight: "800" }, headerTitleAlign: "left"
+                }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
